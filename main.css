@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.main-header {
+    height: 1000px;
+    background:  #fff url(/img/main-bg.jpeg) no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation1 {
+    visibility: hidden;
+    position: fixed;
+}
+
+li {
+    list-style: none;
+}
+
+#navigation2 {
+    visibility: visible;
+    z-index: 2;
+}
+
+#navigation2 ul {
+    margin: 0 20px;
+    padding: 0;
+}
+
+#navigation2 li {
+    display: inline-block;
+    margin: 0;
+    padding: 50px 20px;
+}
+
+.menu {
+    width: 50px;
+    float: left;
+}
+
+.link {
+    float: right;
+}
+
+.FB-Icon,
+.T-Icon {
+    width: 30px;
+}
+
+h1 {
+    font-size: 128px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin: 0;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.tagline {
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 4px;
+}
+
+.arrow {
+    width: 50px;
+    padding-top: 325px;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+
+#navigation1 {
+    visibility: visible;
+    width: 100%;
+}
+
+#navigation1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 50px;
+}
+
+#navigation2 {
+    visibility: hidden;
+}
+
+
+}
