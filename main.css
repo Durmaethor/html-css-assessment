@@ -14,7 +14,7 @@ body {
 
 .main-header {
     height: 1000px;
-    background:  #fff url(/img/main-bg.jpeg) no-repeat center;
+    background:  #fff url(./img/main-bg.jpeg) no-repeat center;
     background-size: cover;
     margin: 0;
     padding: 0;
